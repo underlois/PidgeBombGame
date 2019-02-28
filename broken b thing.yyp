@@ -311,6 +311,14 @@
             }
         },
         {
+            "Key": "51d5d4d3-a1ce-450f-bdbc-f80b8b788b85",
+            "Value": {
+                "id": "e7af9ed5-f8d9-4c72-b801-4845f2874c54",
+                "resourcePath": "objects\\obj_deckWSprite\\obj_deckWSprite.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "51f1433d-9ad5-4b9a-bd98-66a059b017e4",
             "Value": {
                 "id": "b5988b6c-4def-44fc-a642-2f0baa03bf45",
@@ -531,6 +539,14 @@
             "Value": {
                 "id": "d02158cd-c38d-401e-b907-ee970e4ce7cb",
                 "resourcePath": "sprites\\spr_card_hearts_ace\\spr_card_hearts_ace.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "801eef86-11ad-4495-90a5-7f4a6cf14d3e",
+            "Value": {
+                "id": "ea0e4bf5-75bf-4ecf-b2aa-ae04b45988ba",
+                "resourcePath": "sprites\\spr_PowersDeck\\spr_PowersDeck.yy",
                 "resourceType": "GMSprite"
             }
         },

@@ -1,19 +1,10 @@
 {
-    "id": "87469b61-511d-4549-89a2-a4e6a672bea4",
+    "id": "51d5d4d3-a1ce-450f-bdbc-f80b8b788b85",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_Board",
+    "name": "obj_deckWSprite",
     "eventList": [
-        {
-            "id": "a072dd8a-06c1-4fe6-93e5-93ea41e80d76",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": true,
-            "collisionObjectId": "87469b61-511d-4549-89a2-a4e6a672bea4",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "87469b61-511d-4549-89a2-a4e6a672bea4"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
@@ -33,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "07aec771-9dfe-46ef-b517-278650dfc73d",
+    "spriteId": "801eef86-11ad-4495-90a5-7f4a6cf14d3e",
     "visible": true
 }
