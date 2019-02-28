@@ -1,0 +1,2 @@
+// negates all in stack 
+

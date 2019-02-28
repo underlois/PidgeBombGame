@@ -1,0 +1,1 @@
+// removes one flag from play for turn 
