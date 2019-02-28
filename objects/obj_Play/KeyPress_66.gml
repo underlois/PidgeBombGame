@@ -1,16 +1,16 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 313F8693
-/// @DnDArgument : "var" "spaceHasBeenPressed"
-if(spaceHasBeenPressed == 0)
+/// @DnDArgument : "var" "enterHasBeenPressed"
+if(enterHasBeenPressed == 0)
 {
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 6C60DFA9
 	/// @DnDParent : 313F8693
 	/// @DnDArgument : "expr" "1"
-	/// @DnDArgument : "var" "spaceHasBeenPressed"
-	spaceHasBeenPressed = 1;
+	/// @DnDArgument : "var" "enterHasBeenPressed"
+	enterHasBeenPressed = 1;
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
