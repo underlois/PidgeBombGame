@@ -18,6 +18,4 @@ scr_draw(1);
 
 // for draw for now will not include the rule that states that a player re-draws when they draw a power card
 
-
-// need to add player input q,w,e,r for input 
 */
