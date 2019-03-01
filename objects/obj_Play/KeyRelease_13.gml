@@ -47,10 +47,11 @@ if(enterHasBeenPressed == 0)
 		/// @DnDHash : 0293A01E
 		/// @DnDParent : 0932CDE9
 		/// @DnDArgument : "var" "BombPos"
+		/// @DnDArgument : "var_temp" "1"
 		/// @DnDArgument : "type" "1"
 		/// @DnDArgument : "min" "1"
 		/// @DnDArgument : "max" "8"
-		BombPos = floor(random_range(1, 8 + 1));
+		var BombPos = floor(random_range(1, 8 + 1));
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
 		/// @DnDVersion : 1
@@ -74,11 +75,12 @@ if(enterHasBeenPressed == 0)
 			/// @DnDHash : 5F0CD4D6
 			/// @DnDParent : 1BCEA7B1
 			/// @DnDArgument : "xpos" "Point_1.x"
+			/// @DnDArgument : "xpos_relative" "1"
 			/// @DnDArgument : "ypos" "Point_1.y"
 			/// @DnDArgument : "objectid" "obj_Bomb"
 			/// @DnDArgument : "layer" ""Instances_1""
 			/// @DnDSaveInfo : "objectid" "cd80ffcc-81d6-4c2d-a5ac-a135244828cd"
-			instance_create_layer(Point_1.x, Point_1.y, "Instances_1", obj_Bomb);
+			instance_create_layer(x + Point_1.x, Point_1.y, "Instances_1", obj_Bomb);
 		}
 	
 		/// @DnDAction : YoYo Games.Common.If_Variable
